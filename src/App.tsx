@@ -1,11 +1,9 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
+import "./App.css";
+import { CanvasEntry } from "./components/main";
+import { TestStore } from "./components/testStore";
+import { EntityStoreDevTools } from "./store/devTools";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <CanvasEntry />
